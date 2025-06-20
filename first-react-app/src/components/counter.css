@@ -1,0 +1,19 @@
+
+.counter {
+    display: flex;
+    flex-direction: column; /* stack h1 and buttons vertically */
+    justify-content: center; /* vertical center */
+    align-items: center;     /* horizontal center */
+    height: 10vh;           /* full screen height for perfect centering */
+}
+
+.buttons {
+    margin-top: 10px;        /* space between counter and buttons */
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+}

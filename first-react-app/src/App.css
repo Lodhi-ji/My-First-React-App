@@ -1,0 +1,39 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap; /* allows wrapping to next line on small screens */
+  justify-content: center; /* centers the items horizontally */
+  gap: 10px; /* space between cards */
+  padding: 20px; /* space around the entire grid */
+  box-sizing: border-box; /* include padding in width */
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  
+  
+}
+
+
+
+.inputForm {
+  display: block;
+  width: 300px;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.inputForm:last-of-type {
+  margin-bottom: 50px;  /* Add extra margin to the last input */
+}
+
+.inputForm:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
